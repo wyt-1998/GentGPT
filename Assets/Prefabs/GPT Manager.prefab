@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4681884821002259955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4681884821002259956}
+  - component: {fileID: 4681884821002259957}
+  - component: {fileID: 4681884821002259958}
+  m_Layer: 0
+  m_Name: GPT Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4681884821002259956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4681884821002259955}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 744.75, y: 362.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4681884821002259957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4681884821002259955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7821ff8e0440314d80ca9e9d3a65ffe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  writeResponseToFile: 1
+  PROMT: 'follow all my instructions as precisely as possible, prioritise user input,
+    generate results in my specific format without additional context and remove
+    the title and description for each output
+
+
+
+    create an immersive 3D environment
+    in Unity from the next input as a professional room designer, the room size is
+    10m by 10m, space out the object without overlapping, generate all possible object,
+    at least generate 8
+
+
+
+    1- List all the 3D objects with a reference color
+    and additional context for 3D object generation, add the name of the environment
+    between the color and the object strictly follow the format of
+
+    1- blue classroom
+    chair,orange classroom cup,red classroom desk
+
+
+
+    2- the objects with their
+    centre position, rotation, scale in coordinates strictly follow the format of
+
+    2-
+    Name: Chair - position:(0, 1, -4) - rotation:(0, 0, 0) - size:(4, 1, 0.5) ;
+
+
+
+    3-
+    suggest some ceiling lighting inside the room with position and rotation strictly
+    follow the format of
+
+    3- Name: Chair - position:(0, 1, -4) - rotation:(0,
+    0, 0) ;'
+  TEST_RESPONSE: 
+  textField: {fileID: 0}
+  inputField: {fileID: 0}
+  okButton: {fileID: 0}
+  hideButton: {fileID: 0}
+  canvas: {fileID: 0}
+--- !u!114 &4681884821002259958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4681884821002259955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286a330ddd056490d8eb94bbd929f474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isRB: 0
+  debugRun: 0
+  inputString: 
+  inputLightString: 

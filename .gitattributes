@@ -1,0 +1,4 @@
+Assets/RoomGenerated.fbx filter=lfs diff=lfs merge=lfs -text
+Assets/Scripts/pythonScript/shap_e_model_cache/text_cond.pt filter=lfs diff=lfs merge=lfs -text
+Assets/Scripts/pythonScript/shap_e_model_cache/transmitter.pt filter=lfs diff=lfs merge=lfs -text
+Assets/Scripts/pythonScript/shap_e_model_cache/ViT-L-14.pt filter=lfs diff=lfs merge=lfs -text

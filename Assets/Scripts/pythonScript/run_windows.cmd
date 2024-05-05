@@ -1,0 +1,2 @@
+python MyApi_ply2fbx_blender.py
+pause
