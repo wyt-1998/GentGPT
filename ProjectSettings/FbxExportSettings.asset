@@ -1,0 +1,44 @@
+{
+    "MonoBehaviour": {
+        "m_Enabled": true,
+        "m_EditorHideFlags": 0,
+        "m_Name": "FBX Export Settings",
+        "m_EditorClassIdentifier": "",
+        "Verbose": false,
+        "launchAfterInstallation": true,
+        "HideSendToUnityMenu": true,
+        "BakeAnimation": false,
+        "showConvertToPrefabDialog": true,
+        "integrationSavePath": "I:\\gengpt",
+        "selectedDCCApp": 0,
+        "prefabSavePaths": [
+            "."
+        ],
+        "fbxSavePaths": [
+            "."
+        ],
+        "selectedFbxPath": 0,
+        "selectedPrefabPath": 0,
+        "dccOptionNames": [
+            "Maya 2023"
+        ],
+        "dccOptionPaths": [
+            "C:/Program Files/Autodesk/Maya2023/bin/maya.exe"
+        ],
+        "exportModelSettingsSerialize": {
+            "exportFormat": 0,
+            "animatedSkinnedMesh": false,
+            "mayaCompatibleNaming": true,
+            "include": 0,
+            "lodLevel": 0,
+            "objectPosition": 0,
+            "exportUnrendered": true,
+            "preserveImportSettings": false
+        },
+        "convertToPrefabSettingsSerialize": {
+            "exportFormat": 0,
+            "animatedSkinnedMesh": false,
+            "mayaCompatibleNaming": true
+        }
+    }
+}
